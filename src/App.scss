@@ -1,0 +1,27 @@
+$margin: 10px;
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.select-blocks {
+  display: flex;
+  flex-direction: column;
+  margin: $margin;
+
+  > div {
+    margin: $margin
+  }
+}
+
+.MuiCircularProgress-root {
+  display: flex;
+  align-self: center;
+}
+
+.title-block {
+  align-self: center;
+  font-size: 18px;
+  margin: $margin;
+}
